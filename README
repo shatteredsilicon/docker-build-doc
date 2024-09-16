@@ -1,0 +1,5 @@
+Build:
+# docker build -t shatteredsilicon/docbuild:latest .
+
+Create Docs:
+# docker run --volume (ssm-doc dir):/home/builder/work shatteredsilicon/docbuild:latest
